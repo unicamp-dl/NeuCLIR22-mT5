@@ -3,9 +3,13 @@
   This repository includes the winning reranker model used to reproduce NeuCLIR 2022.
 </div>
 
+## Requirements
+
+If you plan to run the model with weights in 8-bit (int8), you will need at least 40GB of GPU RAM. For 16-bit (fp16), you will need 80GB.
+
 ## Installation
 
-Use pip package manager to install InPars toolkit, jsonlines reader and ir-measures.
+To install the necessary packages, use the pip package manager to install InPars toolkit, jsonlines reader, and ir-measures:
 
 ```bash
 pip install inpars jsonlines ir-measures
@@ -52,7 +56,7 @@ ir_measures qrels_modified.fa \
         'nDCG@10 nDCG@20 MAP RBP(rel=1) R@100 R@1000 Judged@10 Judged@20'
 ```
 
-## References
+## Cite this work
 
 Please cite the original [NeuCLIR paper published at TREC](https://trec.nist.gov/pubs/trec31/papers/NM.unicamp.N.pdf) if you use this repository.
 
