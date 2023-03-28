@@ -1,0 +1,6 @@
+pandas
+jsonlines
+sentencepiece
+transformers
+bitsandbytes
+inpars
