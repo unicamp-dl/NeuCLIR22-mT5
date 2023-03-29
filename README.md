@@ -1,6 +1,6 @@
 <h1 align="center">NeuCLIR22 mT5</h1>
 <div align="center">
-  This repository includes the winning reranker model used to reproduce NeuCLIR 2022.
+  This repository includes the reproduction steps for the winning reranker model proposed in <a href="[url](https://trec.nist.gov/pubs/trec31/papers/NM.unicamp.N.pdf)">NeuralMind-UNICAMP at 2022 TREC NeuCLIR: Large Boring Rerankers for Cross-lingual Retrieval</a> for NeuCLIR 2022.
 </div>
 
 ## Requirements
@@ -58,9 +58,16 @@ ir_measures qrels_modified.fa \
 
 ## Cite this work
 
-Please cite the original [NeuCLIR paper published at TREC](https://trec.nist.gov/pubs/trec31/papers/NM.unicamp.N.pdf) if you use this repository.
+Please cite our [paper](https://trec.nist.gov/pubs/trec31/papers/NM.unicamp.N.pdf) if you use this repository.
 
 ```
-Soon
+@misc{jeronymo2023neuralmindunicamp,
+      title={NeuralMind-UNICAMP at 2022 TREC NeuCLIR: Large Boring Rerankers for Cross-lingual Retrieval}, 
+      author={Vitor Jeronymo and Roberto Lotufo and Rodrigo Nogueira},
+      year={2023},
+      eprint={2303.16145},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
 ```
 
